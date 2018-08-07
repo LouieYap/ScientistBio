@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ScientistBiography"
+             x:Class="ScientistBiography.MainPage"
+             Title="FAMOUS SCIENTISTS">
+
+
+    <ScrollView>
+        <StackLayout BackgroundColor="White" Padding="20,5,20,0">
+            <ContentView Padding="0,0,0,20">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="1" Tapped="OnTapGestureRecognizerTappedEvet"/>
+                </ContentView.GestureRecognizers>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Sir Isaac Newton" FontSize="17" TextColor="#252222"></Label>
+                    <Image Source="arrow.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+            </ContentView>
+
+            <ContentView Padding="0,0,0,20">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="2" Tapped="OnTapGestureRecognizerTappedEvet"/>
+                </ContentView.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Louis Pasteur" FontSize="17" TextColor="#252222"></Label>
+                    <Image Source="arrow.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+            </ContentView>
+
+            <ContentView Padding="0,0,0,20">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="3" Tapped="OnTapGestureRecognizerTappedEvet"/>
+                </ContentView.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Galileo" FontSize="17" TextColor="#252222"></Label>
+                    <Image Source="arrow.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+            </ContentView>
+
+            <ContentView Padding="0,0,0,20">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="4" Tapped="OnTapGestureRecognizerTappedEvet"/>
+                </ContentView.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Marie Curie" FontSize="17" TextColor="#252222"></Label>
+                    <Image Source="arrow.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+            </ContentView>
+
+            <ContentView Padding="0,0,0,20">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="5" Tapped="OnTapGestureRecognizerTappedEvet"/>
+                </ContentView.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Albert Einstein" FontSize="17" TextColor="#252222"></Label>
+                    <Image Source="arrow.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+            </ContentView>
+
+            <ContentView Padding="0,0,0,20">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="6" Tapped="OnTapGestureRecognizerTappedEvet"/>
+                </ContentView.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Charles Darwin" FontSize="17" TextColor="#252222"></Label>
+                    <Image Source="arrow.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+            </ContentView>
+
+            <ContentView Padding="0,0,0,20">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="7" Tapped="OnTapGestureRecognizerTappedEvet"/>
+                </ContentView.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Otto Hahn" FontSize="17" TextColor="#252222"></Label>
+                    <Image Source="arrow.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+            </ContentView>
+
+            <ContentView Padding="0,0,0,20">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="8" Tapped="OnTapGestureRecognizerTappedEvet"/>
+                </ContentView.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nikola Tesla" FontSize="17" TextColor="#252222"></Label>
+                    <Image Source="arrow.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+            </ContentView>
+
+            <ContentView Padding="0,0,0,20">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="9" Tapped="OnTapGestureRecognizerTappedEvet"/>
+                </ContentView.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="James Clerk Maxwell" FontSize="17" TextColor="#252222"></Label>
+                    <Image Source="arrow.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+            </ContentView>
+
+            <ContentView Padding="0,0,0,20">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" CommandParameter="10" Tapped="OnTapGestureRecognizerTappedEvet"/>
+                </ContentView.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Aristotle" FontSize="17" TextColor="#252222"></Label>
+                    <Image Source="arrow.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+            </ContentView>
+        </StackLayout>
+    </ScrollView>
+ 
+</ContentPage>
